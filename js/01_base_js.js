@@ -15,3 +15,4 @@ ici un com sur plusieurs lignes
     => alert('Super, tu es arrivée sur mon site !');
     => prompt('Question : Quel jour est-on ?'); avec la fonction prompt, je dialogue directement avec l'utilisateur
 */
+// Ce sont de sfonctions natives

@@ -15,8 +15,11 @@ IL EXISTE PLUSIEURS TYPES DE VARIABLES
 // Pour déclarer une variable :
 var prenom;
 
-// Pour lui déclarer une valeur :
+// Pour lui déclarer (affecter) une valeur :
 var prenom="Cinnie";
+prenom="Cinnie";
+const PRENOM="matias";
+// const prenom2="matias"; // Ne change jamais
 
 // Pour afficher la valeur d'une variable : 
 // a- Pour tester une valeur on ouvre la console du navigateur (f12), puis on écrit le nom de la variable à droite des ">>" puis ENTER
@@ -25,7 +28,7 @@ var prenom="Cinnie";
 alert(prenom);
 
 // c- On écrit dans le script (code)
-console.log(prenom);
+console.log(prenom); //fonction native
 
 // Il est possible d'écrire plusieurs variables sur une seule ligne : 
 var nb1, nb2, nb3;
