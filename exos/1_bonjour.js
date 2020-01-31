@@ -68,6 +68,19 @@ function decompte(t) {
 
 decompte(7);
 
+document.write("<hr>");
+
+var Prenoms = ['Jean', 'Marc', 'Matthieu', 'Hugo'];
+// console.log(Prenoms);
+
+var Numero = function (combienDeFois) {
+    for (var i = 1; i <= combienDeFois; i++) {
+        console.log(i + Prenoms);
+        document.write('<p>Prénom ' + i + " " + Prenoms + '</p>')
+    }
+};
+Numero(4);
+
 
 
 
