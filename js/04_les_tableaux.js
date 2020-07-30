@@ -105,7 +105,7 @@ console.log(array3Dimension[0].coordonnées.email);
 var couleur = ['Rouge', 'Jaune', 'Vert'];
 // console.clear();
 console.log(couleur);
-console.log(couleur.length); // .lenght permet d'afficher sur ma console le nombre d'éléments que contient mon tableau
+console.log(couleur.length); // .length permet d'afficher sur ma console le nombre d'éléments que contient mon tableau
 
 // Pour ajouter un élément dans mon tableau, je fais appel à la fonction push()
 var nbElementsDeMonTableau = couleur.push('Violet');
